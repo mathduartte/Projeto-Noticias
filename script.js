@@ -7,7 +7,7 @@ const nav = document.querySelector(".header-mobile nav")
 console.log(body)
 
 botaoAbrir.addEventListener('click', abrirMenu)
-botaoFechar.addEventListener('click')
+botaoFechar.addEventListener('click', fecharMenu)
 
 function abrirMenu () {
     body.classList.add("escurecer")
